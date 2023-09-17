@@ -1,0 +1,382 @@
+/* styles */
+
+.container{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.--last{
+
+    padding-right: 0px !important;
+}
+.--margin-bottom-negativ22px{
+    margin-bottom: -22px;
+}
+body{
+    background-color: #191919;
+}
+
+.weight_700{
+    font-weight: 700;
+}
+
+h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+
+    color: #FFFFFF;
+
+}
+
+.promt{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+/* header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.link-list{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link-list li:hover{
+    color: #118DA8;
+}
+
+.link-list li{
+    color: #FFFFFF;
+    padding-right: 40px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* section_1 */
+
+.first-section{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.first-section_img{
+    border-radius: 12px;
+    margin-left: -47px;
+
+}
+
+.link_block a{
+    padding-right: 17px;
+}
+
+.image-top-vector{
+    position: relative;
+    top: -821px;
+    right: -47px;
+}
+
+.next_underline{
+    position: relative;
+    top: -70px;
+    left: -7px;
+}
+
+
+/* second-section */
+.second-section{
+    padding-top: 80px;
+
+}
+
+.second-section_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.--special_1{
+    font-size: 64px;
+    letter-spacing: 2.88px;
+
+    padding-bottom: 28px ;
+}
+
+
+.second-section_card{
+    background-color: #000000;
+    border-radius: 32px;
+    padding: 40px 40px 40px 40px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.second-section_card article{
+    color: #B2B2B2;
+
+    font-size: 22px;
+    font-family: 'DM Sans', sans-serif;
+
+    padding-bottom: 18px ;
+}
+
+.second-section_card h6{
+    font-size: 17px;
+    color: #118DA8;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 18px;
+}
+
+.second-section_card .promt_button{
+    background-color: #191919;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+
+    display: inline-block;
+
+    margin-bottom: 48px;
+}
+
+.second-section_card .promt_button p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.second-section_card .card_img{
+    padding-right: 47px;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}
+
+
+
+button{
+    background-color: #118DA8;
+    border-radius: 6px;
+}
+
+.button-text{
+
+    color: #FFFFFF;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.--margin0auto{
+    margin: 0 auto;
+}
+
+
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 270px;
+}
+
+.third-section_content img{
+    padding-bottom: 20px;
+}
+
+.third-section_img img{
+    border-radius: 12px;
+}
+
+.third-section_content article{
+    color: #B2B2B2;
+
+    font-size: 22px;
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 22px;
+}
+
+.third-section_content h6{
+    font-size: 17px;
+    color: #118DA8;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+.third-section_content h1{
+    padding-bottom: 28px;
+}
+
+
+
+.fourth-section{
+    padding-top: 201px;
+}
+
+.fourth-section_content{
+    background-color: #000000;
+    border-radius: 32px;
+    padding: 60px 60px 60px 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content_text-block h6{
+    font-size: 17px;
+    color: #118DA8;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+
+    padding-bottom: 10px;
+}
+
+fieldset{
+    background-color: #000000;
+    border: none;
+
+    position: relative;
+}
+
+input{
+    background-color: #191919;
+    border-radius: 6px;
+    border: none;
+    box-sizing: border-box;
+
+    color: #BABABA;
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    width: 522px;
+
+
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+.content_input div{
+    padding-bottom: 20px;
+}
+
+.fourth-section img{
+    position: relative;
+    left: -34px;
+    top: -62px;
+}
+
+.card{
+    background-color: #000000;
+    border-radius: 32px;
+    
+    padding: 50px 50px 50px 60px;
+    min-width: 300px;
+}
+
+
+
+.card-grade_input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-bottom: 22px;
+
+}
+.card-grade_input img{
+    padding-right: 5.43px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding-bottom: 19px;
+}
+
+h4{
+    color: #B2B2B2;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.top_content-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_content-block{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 16px;
+}
+
+
+.fifth-section{
+    padding-top: 175px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 200px;
+}
+
+.logo{
+    padding-bottom: 20px ;
+}
+
+.link-block a{
+    padding-right: 12px;
+}
+
+ul{
+    list-style: none;
+}
+
+.text-link_block li:hover{
+    color: #118DA8;
+}
+
+li{
+    color: #FFFFFF;
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
